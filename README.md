@@ -35,6 +35,14 @@ keyboard_lookup_table.cpp  ---> includes keyboard maps and hex-codes and definit
 
 Choosen: Delete delete registry value --> That is deletes your registry changes 
 
+## INTRODUCTION VIDEO:
+
+[![Watch the video](https://github.com/user-attachments/assets/3876f149-02c3-4859-908a-3a14d780d62f)](https://github.com/user-attachments/assets/3876f149-02c3-4859-908a-3a14d780d62f)
+
+
+
+
+
 
 
 
