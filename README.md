@@ -26,7 +26,9 @@ keyboard_lookup_table.cpp  ---> includes keyboard maps and hex-codes and definit
 ## Step 2:
 
 2) Choosen: Create or update registry key
+
     i. When you can see keymap list
+
     ii. Write to console the what do you want to change the positions of two keys first and second
 
 ## Step 3:
