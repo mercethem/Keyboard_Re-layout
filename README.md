@@ -21,19 +21,23 @@ keyboard_lookup_table.cpp  ---> includes keyboard maps and hex-codes and definit
 
 ## Step 1:
 
-1) Run as administrator
+Run as administrator
 
 ## Step 2:
 
-2) Choosen: Create or update registry key
+1) Choosen: Create or update registry key
 
     i. When you can see keymap list
 
-    ii. Write to console the what do you want to change the positions of two keys first and second
+    ii. Write to console the what do you want to change the positions of two keys first and second key
 
 ## Step 3:
 
-Choosen: Delete delete registry value --> That is deletes your registry changes 
+2) Choosen: Delete delete registry value --> That is deletes your registry changes
+
+## Step 4:
+
+RESTART THE COMPUTER
 
 ## INTRODUCTION VIDEO:
 
