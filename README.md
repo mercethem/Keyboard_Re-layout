@@ -1,4 +1,4 @@
-# Keyboard_Re-layout
+# Keyboard_Re-layout (ONLY WINDOWS)
 ------------------------------------
 ## File Contents
 main.cpp          ---> startup file (includes control_panel function)
