@@ -55,11 +55,11 @@ bool KeyboardRelayout::set_registry_binary_value(HKEY h_key, const std::vector<u
     );
 
     if(result != ERROR_SUCCESS) {
-        std::cerr << "Failed to set binary value. Error code: " << result << std::endl;
+        std::cerr << "Failed to set binary value. Error code: " << result << '\n';
         return false;
     }
 
-    std::cout << "Binary value successfully added." << std::endl;
+    std::cout << "Binary value successfully added." << '\n';
     return true;
 }
 
@@ -76,10 +76,10 @@ bool KeyboardRelayout::delete_registry_value(HKEY h_key)
 {
     LONG result = RegDeleteValue(h_key, value_name.c_str());
     if(result != ERROR_SUCCESS) {
-        std::cerr << "There is NOT EXIST a changed Keyboard Layout!" << std::endl;
+        std::cerr << "There is NOT EXIST a changed Keyboard Layout!" << '\n';
         return false;
     }
 
-    std::cout << "Registry value successfully DELETED." << std::endl;
+    std::cout << "Registry value successfully DELETED." << '\n';
     return true;
 }
