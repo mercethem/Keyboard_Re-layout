@@ -40,7 +40,7 @@ void control_panel()
                     if(key_1 != -1) { ; //NOTHING
                     }
                     else {
-                        std::cout << "Please enter valid key!" << std::endl;
+                        std::cout << "Please enter valid key!" << '\n';
                         goto enter_first_key_again;
                     }
 
@@ -98,15 +98,15 @@ void control_panel()
                     break;
                 }
                 default:
-                    std::cerr << "Invalid choice." << std::endl;
+                    std::cerr << "Invalid choice." << '\n';
                     break;
             }
         }
         catch(const std::runtime_error &ex) {
-            std::cerr << "Exception occurred: " << ex.what() << std::endl;
+            std::cerr << "Exception occurred: " << ex.what() << '\n';
         }
 
-        std::cout << "Press Enter to continue or Ctrl+C to exit..." << std::endl;
+        std::cout << "Press Enter to continue or Ctrl+C to exit..." << '\n';
         std::cin.ignore(); // Clear the newline character from the buffer
         std::cin.get(); // Wait for Enter key
     }
