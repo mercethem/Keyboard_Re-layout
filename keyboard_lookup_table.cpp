@@ -223,7 +223,7 @@ int key_code_in_map(const std::string &str_code_name)
         return static_cast<int>(key_code);
     }
     catch(const std::invalid_argument &e) {
-        std::cerr << e.what() << std::endl;
+        std::cerr << e.what() << '\n';
         return -1; //Error return value
     }
 }
@@ -241,6 +241,6 @@ void print_keys()
                 std::cout << std::setw(colWidth) << key_names[i + j];
             }
         }
-        std::cout << std::endl;
+        std::cout << '\n';
     }
 }
